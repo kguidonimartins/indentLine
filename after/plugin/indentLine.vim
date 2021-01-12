@@ -102,7 +102,7 @@ function! s:SetConcealOption()
         let b:indentLine_original_concealcursor = &l:concealcursor
         let b:indentLine_original_conceallevel = &l:conceallevel
         let &l:concealcursor = exists("g:indentLine_concealcursor") ? g:indentLine_concealcursor : "inc"
-        let &l:conceallevel = exists("g:indentLine_conceallevel") ? g:indentLine_conceallevel : "2"
+        let &l:conceallevel = exists("g:indentLine_conceallevel") ? g:indentLine_conceallevel : "0"
     endif
 endfunction
 
